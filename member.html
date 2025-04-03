@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>New Member</title>
+</head>
+<body>
+    <div>
+        <h1>New Member</h1>
+        <ul class="nav">
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="./table.html">Table</a></li>
+            <li><a href="./video.html">Video & Image</a></li>
+            <li><a href="./member.html">New Member</a></li>
+        </ul>
+    </div>
+    <hr>
+    <table align="center" class="list">
+        <h2 align="center">회원가입 - 정보를 입력하세요</h2>
+        <form>
+            <tr>
+                <td><input class="member" type="text" placeholder="ID" required></td>
+            </tr>
+            <tr>
+                <td><input class="member" type="password" placeholder="Password" required></td>
+            </tr>
+            <tr>
+                <td><input class="member" type="password" placeholder="Password Check" required></td>
+            </tr>
+            <tr>
+                <td><input class="member" type="text" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td><input class="member" type="text" placeholder="Phone Number"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="email">
+                        <input class="member" type="text" placeholder="E-mail">
+                        <span>@</span>
+                        <select class="member">
+                            <option value="naver.com">naver.com</option>
+                            <option value="gmail.com">gmail.com</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="회원가입" class="button">
+                    <input type="reset" value="취소" class="button">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
